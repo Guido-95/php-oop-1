@@ -1,6 +1,6 @@
 <?php 
 
-class Movie{
+class Movie {
     // attributi d'istanza
     public $title;
     public $image;
