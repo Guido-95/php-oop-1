@@ -72,7 +72,7 @@ $film2= new Movie('Fight Club', $image2, $weft, 4.6 ,$cast,'David Fincher','Dram
             <div>
                 <div class='weft'>
                 
-                    Plot: <?= $film1->weft; ?>
+                <Strong> Plot: </Strong> <?= $film1->weft; ?>
                     
                 </div>
                 
@@ -80,15 +80,15 @@ $film2= new Movie('Fight Club', $image2, $weft, 4.6 ,$cast,'David Fincher','Dram
             </div>
             
             <div class="duration-vote">
-                <?= 'duration: ' . $film1->duration; ?>
+                <?= ' <Strong> Duration: </strong>' . $film1->duration; ?>
                 <div>
-                    <?= 'Vote: '. $film1->vote; ?>
+                    <?= '<Strong> Vote: </Strong> '. $film1->vote; ?>
                 </div>
             </div>
 
                
             <div class='cast'>
-                <span> Cast </span>
+                <span> <Strong> Cast </Strong> </span>
                 <?php
                     foreach ($film1->cast as $key) { 
                 ?>
@@ -103,11 +103,11 @@ $film2= new Movie('Fight Club', $image2, $weft, 4.6 ,$cast,'David Fincher','Dram
                 
             </div>
             <div class='director'>
-                Director: 
+                <Strong> Director: </Strong>
                 <?=  $film1->director; ?>
             </div>
             <div class="release">
-                <?=  'Release: ' . $film1->release; ?>
+                <?=  '<Strong> Release: </Strong>' . $film1->release; ?>
             </div>
            
             
@@ -123,18 +123,18 @@ $film2= new Movie('Fight Club', $image2, $weft, 4.6 ,$cast,'David Fincher','Dram
             </div>
            
             <div class='weft'>
-                Plot: <?= $film2->weft; ?>
+            <Strong> Plot: </Strong>  <?= $film2->weft; ?>
                 
             </div>
             <div class="duration-vote">
                 <?= 'Duration: ' . $film2->duration; ?>
                 <div>
-                    <?= 'Vote: '. $film2->vote; ?>
+                    <?= '<Strong> Vote: </Strong> '. $film2->vote; ?>
                 </div>
                
             </div>
             <div class='cast'>
-                <span> Cast </span>
+                <span> <Strong> Cast: </Strong>  </span>
                 <?php
                     foreach ($film2->cast as $key) { 
                 ?>
@@ -149,11 +149,11 @@ $film2= new Movie('Fight Club', $image2, $weft, 4.6 ,$cast,'David Fincher','Dram
                 
             </div>
             <div class='director'>
-                Director: 
+                <Strong> Director: </Strong> 
                 <?=  $film2->director; ?>
             </div>
             <div class="release">
-                <?=  'Release: ' . $film2->release; ?>
+                <?=  ' <strong> Release: </strong>' . $film2->release; ?>
             </div>
             
             
