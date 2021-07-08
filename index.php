@@ -134,7 +134,7 @@ $film2= new Movie('Fight Club', $image2, $weft, 4.6 ,$cast,'David Fincher','Dram
                
             </div>
             <div class='cast'>
-                <span> <Strong> Cast: </Strong>  </span>
+                <span> <Strong> Cast </Strong>  </span>
                 <?php
                     foreach ($film2->cast as $key) { 
                 ?>
