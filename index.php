@@ -127,7 +127,7 @@ $film2= new Movie('Fight Club', $image2, $weft, 4.6 ,$cast,'David Fincher','Dram
                 
             </div>
             <div class="duration-vote">
-                <?= 'Duration: ' . $film2->duration; ?>
+                <?= ' <strong> Duration: </strong>' . $film2->duration; ?>
                 <div>
                     <?= '<Strong> Vote: </Strong> '. $film2->vote; ?>
                 </div>
