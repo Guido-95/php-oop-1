@@ -1,6 +1,7 @@
 <?php 
-    require __DIR__ . '../data/data.php';
-
+    
+    require __DIR__ . '../../data/data.php';
+    
     class Movie {
         // attributi d'istanza
         public $title;
@@ -14,7 +15,7 @@
         public $release;
 
         // costruttore
-        function __construct($title,$image, $plot, $vote = 0, $cast, $director = '',$genre = '',$release = '',$duration=''){
+        function __construct($title,$image, $plot, $vote = 0, $cast, $director = '',$genre = '', $release = '', $duration =''){
             $this->title = $title;
             $this->image = $image;
             $this->plot = $this->subPlot($plot);
