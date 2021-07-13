@@ -1,7 +1,7 @@
 <?php 
     
     require __DIR__ . '../../data/data.php';
-    
+   
     class Movie {
         // attributi d'istanza
         public $title;

@@ -1,8 +1,5 @@
 <?php 
     require __DIR__ . '/classes/Movie.php';
-    // var_dump(__DIR__ . '/classes/Movie.php');
-    // var_dump(__DIR__ . '../data/data.php');
-    
 ; ?>
 
 
